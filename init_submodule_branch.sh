@@ -15,8 +15,8 @@ while IFS= read -r line; do
 
         cd $root_path/$path;
         git checkout $branch;
-        git pull
+       # git pull
         cd $root_path
-        echo '*********'
+        echo '*********************************************'
     fi
 done < .gitmodules

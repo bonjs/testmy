@@ -17,10 +17,6 @@ importers:
 
   apps/p1: {}
 
-  packages/ui@1: {}
-
-  packages/ui@2: {}
-
 packages:
 
   husky@9.0.11:
