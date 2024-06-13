@@ -9,8 +9,8 @@ while IFS= read -r line; do
         path=$(git config -f .gitmodules --get-regexp "submodule.$submodule.path" | cut -d " " -f2)
         branch=$(git config -f .gitmodules --get-regexp "submodule.$submodule.branch" | cut -d " " -f2)
 
-        echo "URL: $url"
-        echo "Path: $path"
+        echo "URL   : $url"
+        echo "Path  : $path"
         echo "Branch: $branch"
 
         cd $root_path/$path;
