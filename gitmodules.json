@@ -1,0 +1,12 @@
+{
+  "submodule \"ui@v1\"": {
+    "path": "ui@v1",
+    "url": "git@github.com:bonjs/sub.git",
+    "branch": "v1"
+  },
+  "submodule \"ui@v2\"": {
+    "path": "ui@v2",
+    "url": "git@github.com:bonjs/sub.git",
+    "branch": "v2"
+  }
+}
