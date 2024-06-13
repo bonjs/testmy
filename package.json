@@ -3,12 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "post-merge": "echo 'post-merge'"
+    }
+  },
   "scripts": {
+    "prepare": "husky install ; sh read_gitmodule.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "husky": "^9.0.11",
     "ini": "^4.1.3"
   }
 }

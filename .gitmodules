@@ -1,3 +1,7 @@
+test
+    name = sun2
+[test]
+    name = sun
 [submodule "packages/ui@v1"]
 	path = packages/ui@v1
 	url = git@github.com:bonjs/sub.git
