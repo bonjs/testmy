@@ -1,12 +1,8 @@
-test
-    name = sun2
-[test]
-    name = sun
 [submodule "packages/ui@v1"]
-	path = packages/ui@v1
-	url = git@github.com:bonjs/sub.git
+    path = packages/ui@v1
+    url = git@github.com:bonjs/sub.git
     branch = v1
 [submodule "packages/ui@v2"]
-	path = packages/ui@v2
-	url = git@github.com:bonjs/sub.git
+    path = packages/ui@v2
+    url = git@github.com:bonjs/sub.git
     branch = v2
