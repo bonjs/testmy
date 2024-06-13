@@ -10,7 +10,7 @@
     }
   },
   "scripts": {
-    "prepare": "husky install ; sh read_gitmodule.sh",
+    "prepare": "sh init.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
