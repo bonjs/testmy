@@ -5,14 +5,14 @@
   "main": "index.js",
   "husky": {
     "hooks": {
-      "commit-msg": "echo 'commit-msg'",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
       "post-index-change": "echo 'post-index-change'",
+      "test": "echo 'test'",
       "post-merge": "echo 'post-merge'"
     }
   },
   "scripts": {
-    "prepare": "husky install",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "husky install"
   },
   "author": "",
   "license": "ISC",
