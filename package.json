@@ -5,9 +5,7 @@
   "main": "index.js",
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "post-index-change": "echo 'post-index-change'",
-      "post-merge": "echo 'post-merge'"
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
   "scripts": {
