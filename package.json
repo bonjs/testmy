@@ -11,7 +11,7 @@
     }
   },
   "scripts": {
-    "prepare": "sh init.sh",
+    "prepare": "husky install && sh init.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

@@ -1,7 +1,5 @@
 #!/bin/bash
 
-husky install
-
 echo '同步子模块中';
 git submodule init;
 git submodule sync;
